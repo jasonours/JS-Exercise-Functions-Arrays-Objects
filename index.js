@@ -41,7 +41,12 @@ function addNumbers(num1, num2) {
  * }
 */
 function makePersonObject(/* code here */) {
-  /* code here */
+  let luke = {
+    id: 1,
+    name: "Luke",
+    email: "luke@luke.com",
+  }
+  return luke;
 }
 
 /**
@@ -58,7 +63,9 @@ function makePersonObject(/* code here */) {
  * the returned value should look like `Hello, my name is Leia`.
 */
 function getName(/* code here */) {
-  /* code here */
+  let name = "Luke";
+  
+  return("Hello, my name is " +  `${name}.`)
 }
 
 /**
