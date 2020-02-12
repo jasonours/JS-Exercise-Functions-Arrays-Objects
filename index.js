@@ -1,3 +1,4 @@
+// @ts-nocheck
 // ⭐️ Example Challenge start ⭐️
 
 /**
@@ -15,7 +16,6 @@
 function addNumbers(num1, num2) {
   return num1 + num2;
 }
-
 
 // ⭐️ Example Challenge end ⭐️
 
@@ -40,11 +40,9 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject() {
+function makePersonObject(/* code here */) {
   /* code here */
 }
-
-
 
 /**
  * ### Challenge `getName`
