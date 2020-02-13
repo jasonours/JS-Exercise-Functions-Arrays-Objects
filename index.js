@@ -65,7 +65,7 @@ function makePersonObject(newId, newName, newEmail) {
 function getName(nameObject) {
   let name = nameObject.name;
   
-  return("Hello, my name is " +  `${name}.`)
+  return "Hello, my name is " +  name;
 }
 
 /**
@@ -153,6 +153,8 @@ function get3rdCar(inventory) {
  * it will return `This is a Lincoln Navigator`.
 */
 function getCarInfoByIndex(inventory, index) {
+  let newCar = inventory[index];
+  return "This is a " + newCar.car_make + " " + newCar.car_model;
   
 }
 
