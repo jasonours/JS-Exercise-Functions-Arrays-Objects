@@ -89,7 +89,7 @@ function makeSmartPerson(nameArgu) {
     speak: function(){
       return "Hello, my name is " +  this.name;
     },
-  };
+  }
   return nameObject;     
 }
 
